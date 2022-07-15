@@ -21,8 +21,8 @@ INSERT INTO bakery VALUES
 
 --display the database ordered by price
 SELECT * FROM bakery
-ORDER BY price asc;
+ORDER BY price desc;
 
---what is the avg price of items in aisle 2?
+--what is the avg price of items in aisle 1?
 SELECT AVG(price) FROM bakery
 WHERE aisle=1;
